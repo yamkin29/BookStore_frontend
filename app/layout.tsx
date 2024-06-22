@@ -4,8 +4,8 @@ import {Menu} from "antd";
 import Link from "next/link";
 
 const items = [
-    {key: "home", label: <Link href={"/"}Home></Link>},
-    {key: "books", label: <Link href={"/books"}Books></Link>},
+    {key: "home", label: <Link href={"/"}>Home</Link>},
+    {key: "books", label: <Link href={"/books"}>Books</Link>},
 ]
 
 export default function RootLayout({
