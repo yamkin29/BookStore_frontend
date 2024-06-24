@@ -31,7 +31,7 @@ export const updateBook = async (id: string , bookRequest: BookRequest) => {
 };
 
 export const deleteBook = async (id: string) => {
-    await fetch('https://localhost:7199/Books/${id}',  {
+    await fetch(`https://localhost:7199/Books/${id}`,  {
         method:   'DELETE'
      })
 };
